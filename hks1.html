@@ -4,9 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>香港&馬來西亞旅遊資訊</title>
+    <title>HKMY 旅遊資訊</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -184,6 +182,7 @@
                 </li>
                 <li class="page-item"><a class="page-link" href="#" onclick="changePage(1)">1</a></li>
                 <li class="page-item"><a class="page-link" href="#" onclick="changePage(2)">2</a></li>
+                <li class="page-item"><a class="page-link" href="#" onclick="changePage(3)">3</a></li>
                 <li class="page-item" id="nextPage">
                     <a class="page-link" href="#" aria-label="Next">
                         <span aria-hidden="true">&raquo;</span>
@@ -228,12 +227,13 @@
             </div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
     <script>
-        // Sample data for shopping centers
         var shoppingCenters = [
             {
                 name: "國際金融中心商場",
@@ -360,26 +360,19 @@
         });
 
         function renderShoppingCenters(shoppingCenters, pageNumber) {
+            var text = null;
             var MainText = 0;
-            var itemsPerPage = 10;
+            var itemsPerPage = 5;
             var startIndex = (pageNumber - 1) * itemsPerPage;
             var endIndex = startIndex + itemsPerPage;
             var slicedShoppingCenters = shoppingCenters.slice(startIndex, endIndex);
 
             if (MainText == 0) {
-                if (pageNumber == 1) {
-                    var text = ` <p class="h1 py-3 text-center">商場</p>
-                                <div class="row mt-5 page gx-0" id="page1">
-                            `;
-                    $("#shoppingCentersContainer").html(text);
-                }
-                else if (pageNumber == 2) {
-                    var text = ` <p class="h1 py-3 text-center">商場</p>
-                                <div class="row mt-5 page gx-0" id="page2">
-                            `;
-                    $("#shoppingCentersContainer").html(text);
-                }
 
+                var text = ` <p class="h1 py-3 text-center">商場</p>
+                            <div class="row mt-5 page gx-0" id="page${pageNumber}">
+                        `;
+                $("#shoppingCentersContainer").html(text);
                 MainText = 1;
             }
 

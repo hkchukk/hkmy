@@ -1,3 +1,5 @@
+var foodItemId = null;
+
 $(document).ready(function () {
   const AutoDropdowns = $(".AutoDropdown");
 
@@ -28,10 +30,27 @@ function filterItems(category) {
       item.classList.remove("hidden");
     });
   }
+
+  foodItemId = null;
 }
 
 function changeBackground(item) {
-  $(item).toggleClass("clicked");
+  if (foodItemId != item)
+  {
+    $(item).toggleClass("clicked");
+
+    if (foodItemId)
+    {
+      $(foodItemId).toggleClass("clicked");
+    }
+
+    foodItemId = item;
+  }
+  else
+  {
+    $(foodItemId).toggleClass("clicked");
+    foodItemId = null;
+  }
 }
 
 function toggleDetails(id) {
