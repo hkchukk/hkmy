@@ -54,7 +54,7 @@
     rgba(255, 255, 255, 0.15),
     rgba(255, 255, 255, 0)
   );
-  --bs-body-font-family: Lora, -apple-system, BlinkMacSystemFont, Segoe UI,
+  --bs-body-font-family: 'Noto Sans TC', Lora, -apple-system, BlinkMacSystemFont, Segoe UI,
     Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
     Segoe UI Symbol, Noto Color Emoji;
   --bs-body-font-size: 1rem;
@@ -125,7 +125,7 @@ h1,
 .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: 'Noto Sans TC', "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 800;
@@ -2813,7 +2813,7 @@ textarea.form-control.is-invalid {
 .btn {
   --bs-btn-padding-x: 1.75rem;
   --bs-btn-padding-y: 1rem;
-  --bs-btn-font-family: Open Sans, -apple-system, BlinkMacSystemFont, Segoe UI,
+  --bs-btn-font-family: 'Noto Sans TC', Open Sans, -apple-system, BlinkMacSystemFont, Segoe UI,
     Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
     Segoe UI Symbol, Noto Color Emoji;
   --bs-btn-font-size: 0.875rem;
@@ -4212,6 +4212,8 @@ fieldset:disabled .btn {
   background-color: var(--bs-card-bg);
   background-clip: border-box;
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  border-radius: 6px;
+  transition: all 400ms ease;
 }
 .card > hr {
   margin-right: 0;
@@ -5426,7 +5428,7 @@ fieldset:disabled .btn {
   display: block;
   padding: var(--bs-tooltip-arrow-height);
   margin: var(--bs-tooltip-margin);
-  font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  font-family: 'Noto Sans TC', "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
@@ -5549,7 +5551,7 @@ fieldset:disabled .btn {
   z-index: var(--bs-popover-zindex);
   display: block;
   max-width: var(--bs-popover-max-width);
-  font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  font-family: 'Noto Sans TC', "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
@@ -10897,7 +10899,7 @@ blockquote {
   right: 0;
   z-index: 1030;
   background-color: #fff;
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: 'Noto Sans TC', "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -11013,7 +11015,7 @@ header.masthead .site-heading .subheading {
   line-height: 1.1;
   display: block;
   margin-top: 0.625rem;
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: 'Noto Sans TC', "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -11030,7 +11032,7 @@ header.masthead .post-heading .subheading {
   font-size: 1.5rem;
   font-weight: 600;
   margin: 0.75rem 0 2rem;
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: 'Noto Sans TC', "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -11038,7 +11040,7 @@ header.masthead .post-heading .meta {
   font-size: 1.25rem;
   font-weight: 300;
   font-style: italic;
-  font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  font-family: 'Noto Sans TC', "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -11091,11 +11093,11 @@ header.masthead .post-heading .meta a {
 }
 
 .top-custom {
-  top: 10% !important;
+  top: 8% !important;
 }
 
 .top-custom2 {
-  top: 65% !important;
+  top: 50% !important;
 }
 
 .top-custom3 {
@@ -11167,7 +11169,8 @@ header.masthead .post-heading .meta a {
 }
 
 .grid-item.clicked {
-  background-color: orange;
+  background-color: rgb(3, 35, 54);
+  color: #f3f3f3;
 }
 
 .grid-item.clicked img {
@@ -11274,12 +11277,32 @@ header.masthead .post-heading .meta a {
 }
 
 .non-clickable-space2 {
-  padding: 0 45px;
+  padding: 0 58px;
   pointer-events: none;
 }
 
 .non-clickable-space3 {
   padding: 0 100px;
+  pointer-events: none;
+}
+
+.non-clickable-space4 {
+  padding: 0 10px;
+  pointer-events: none;
+}
+
+.non-clickable-space5 {
+  padding: 0 0px;
+  pointer-events: none;
+}
+
+.non-clickable-space6 {
+  padding: 0 40px;
+  pointer-events: none;
+}
+
+.non-clickable-space7 {
+  padding: 0 20px;
   pointer-events: none;
 }
 
@@ -11321,7 +11344,7 @@ header.masthead .post-heading .meta a {
 .text-overlay {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 4px;
   width: 100%;
   height: 100%;
   display: flex;
@@ -11367,3 +11390,59 @@ header.masthead .post-heading .meta a {
 .custom-background-color {
   background-color: #f4f5f6;
 }
+
+.text-bg-blue{
+  color:#fff !important;
+  background-color:RGBA(17, 52, 166,var(--bs-bg-opacity,1)) !important;
+}
+
+.text-overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  color: #fff;
+}
+
+.text-overlay2 p {
+  margin: 0;
+  padding: 10px;
+}
+
+.nav-d-flex2 {
+  display: flex !important;
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+  transform: translateY(-3%);
+}
+
+.Myeffect {
+  border: 0px;
+  border-radius: 6px;
+  transition: all 400ms ease;
+}
+
+.Myeffect:hover {
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+  transform: translateY(-3%);
+  --bs-gutter-x: 0;
+}
+
+.transparent::selection{background-color:transparent;}
+.curvedborder{border:2px solid black;
+              width:200px;
+              height:300px;
+              border-radius:20px;
+              padding:20px;
+              }
+
+.curvedborder:hover{border-color:#0d6efd;}
+
+.island{ background-size:cover;}
