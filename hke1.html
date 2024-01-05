@@ -216,32 +216,24 @@
     </main>
     <!-- Main Content -->
     <!-- Footer-->
-    <footer class="border-top">
+    <footer class="border-top custom-background-color">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <ul class="list-inline text-center">
                         <li class="list-inline-item">
-                            <a href="#!">
+                            <a href="#!" data-bs-toggle="popover" data-bs-content="朱建強" data-bs-placement="left">
                                 <span class="fa-stack fa-lg">
                                     <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                    <i class="fas fa-user-alt fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#!">
+                            <a href="#!" data-bs-toggle="popover" data-bs-content="張子宏" data-bs-placement="right">
                                 <span class="fa-stack fa-lg">
                                     <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#!">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                    <i class="fas fa-user-alt fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                         </li>
@@ -258,46 +250,43 @@
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
     <script>
-        var foods = [
-            { type: 5, image: "assets/img/dim-sum.jpg", name: "點心", description: "提到廣東最有名的菜款，一定非點心莫屬。點心泛指在蒸籠蒸熟的一系列小口精緻菜式。無論你較喜歡甜食或是鹹點，款式豐富的點心都一定能滿足你的味蕾。" },
-            { type: 3, image: "assets/img/aaa.jpg", name: "港式奶茶", description: "所謂絲襪奶茶就是指沖出來的奶茶顏色像絲襪那樣滑溜，把煮好的錫蘭紅茶用一個像是尼龍網的棉線網先行過濾茶渣，使紅茶更香滑，然後再加入奶和糖。" },
-            { type: 4, image: "assets/img/eggtart.jpg", name: "蛋撻", description: "蛋撻在港人心目中有著不可取代的地位，無論是早餐或是下午茶小吃，都不會有人拒絕這個誘人的小傢伙。蛋撻外皮為脆香的牛油餅皮，中心是特調的雞蛋漿，新鮮出爐的時間吃是最好不過了。" },
-            { type: 4, image: "assets/img/hong-kong-food-pineapple-bun.jpg", name: "菠蘿包", description: "如你是個「麵包控」，中式餅店會是你的天堂。但如要選出一個本地人最愛的麵包，一定莫過於菠蘿包。菠蘿包沒有菠蘿成分，其名之由來乃因其外貌在烤過後像菠蘿的外皮一樣。吃一口，你會嚐到脆香的外皮和軟糯的包身，一試難忘。" },
-            { type: 3, image: "assets/img/hong-kong-food-ice-lemon-tea-rotated.jpg", name: "港式凍檸茶", description: "港式凍檸茶跟一般凍檸檬茶最大的分別，就是港式凍檸茶能夠在檸檬的酸味、茶味、以及糖漿的甜味之間取得一個完美的平衡。" },
-            { type: 2, image: "assets/img/hong-kong-food-stir-fried-beef-noodles.jpg", name: "乾炒牛肉河粉", description: "以牛肉片、河粉為主，再加上蔥、韮菜、芽菜、醬油用高溫快炒而成的乾炒牛肉河粉，特點是油而不膩，也是茶餐廳在午餐期間、下午茶期間、以及晚餐時間內最熱門的食物。" },
-            { type: 2, image: "assets/img/hong-kong-food-stir-fried-rice-noodles.jpg", name: "星洲炒米粉", description: "星洲炒米粉是一種用鮮蝦、叉燒、辣椒為配料，然後再加上薑黃粉調味的炒米粉。" },
-            { type: 4, image: "assets/img/hong-kong-food-french-toast.jpg", name: "西多士", description: "看著牛油在金黃色的西多士上融化，再淋上蜜糖增加香甜滋味，試問誰能抵擋西多士的美味？" },
-            { type: 5, image: "assets/img/hong-kong-food-roast-pigeon.jpg", name: "椒鹽燒乳鴿", description: "擁有香脆外皮、以及帶一點鹹香的椒鹽燒乳鴿，差不多是每一間粵菜餐廳都一定會有的菜式。" },
-            { type: 2, image: "assets/img/hong-kong-food-satay-beef-noodles.jpg", name: "沙嗲牛肉出前一丁", description: "每一間茶餐廳都會使用獨家秘方來製作沙嗲牛肉，所以你在不同茶餐廳所吃到的沙嗲牛肉的都會有不一樣的味道。" },
-            { type: 5, image: "assets/img/hong-kong-food-crispy-fried-calamari.jpg", name: "椒鹽鮮魷", description: "沾上蛋黃後再用高溫油炸成金黃色、擁有香脆外皮的椒鹽鮮魷，基本上就是不少香港人在晚餐時段內必點的下酒小菜。" },
-            { type: 1, image: "assets/img/hong-kong-food-roast-goost-rice.jpg", name: "燒鵝飯", description: "皮脆肉嫩的燒鵝，一向深受港人及遊客歡迎。新鮮即切且啖啖肉香，絕對是佐飯佳品。" },
-            { type: 5, image: "assets/img/hong-kong-food-sweet-and-sour-pork.jpg", name: "菠蘿咕嚕肉", description: "菠蘿咕嚕肉的製作方式，是把一些連骨的豬肉首先用油炸到金黃香脆，然後加上菠蘿、青椒、洋蔥、以及酸甜汁後再用大火炒一次，出來就是你經常會吃到那一種酸酸甜甜又帶點香脆的菠蘿咕嚕肉。" },
-            { type: 2, image: "assets/img/hong-kong-food-wanton-noodles.jpg", name: "雲吞麵", description: "以鮮蝦雲吞，再配上精製湯底、以及蛋麵，就組成了一碗最傳統的雲吞麵。別以一碗雲吞麵的份量只有很少，只要你食量不算很大的話，其實小小的一碗麵都足夠讓你吃得飽。" },
-            { type: 4, image: "assets/img/10952862_10152846364955897_7496368430191575154_n-768x768.jpg", name: "雞蛋仔", description: "港式雞蛋仔口味層出不同，有巧克力、鹹蛋黃、抺茶紅豆和咖啡等等，新鮮製成的雞蛋仔是外脆內軟，充滿蛋香。" },
-            { type: 2, image: "assets/img/hong-kong-food-beef-brisket-noodles.jpg", name: "牛腩麵", description: "以多種香料醃製、並配上濃厚湯底的牛腩麵，是我們在粥麵店內另一款經常會點的食物。因為對於我們來說，牛腩的油脂、再加上那一碗放在濃厚湯底內的蛋麵，就是一種最能夠直接衝擊到味覺的食物，也讓我們有十足精神繼續堅持到下班的一刻。" },
-            { type: 2, image: "assets/img/hong-kong-food-fishball-noodles.jpg", name: "魚蛋麵", description: "以每天新鮮製作的魚蛋，再配上鮮魚乾製作的湯底，然後再加上少許蔥碎，就成為了一碗非常吸引的魚蛋麵。" },
-            { type: 4, image: "assets/img/hong-kong-street-food-fish-ball.jpg", name: "港式咖哩魚蛋", description: "港式咖哩魚蛋的最大特點，就是每一粒魚蛋都會先經過油炸，然後再吸收整鍋咖哩湯底的精華，讓你每一次咬下去都能夠體驗到香辣、彈牙的口感。" }
-        ];
-
-        var foodContainer = $("#foodContainer");
-
-        $.each(foods, function (index, food) {
-            var foodElement = `
-                                <div id="food" class="col-md-4 grid-item foodType${food.type}" onclick="changeBackground(this)">
-                                    <img src="${food.image}" class="img-fluid">
-                                    <div class="overlay">
-                                        <div class="MainFText">
-                                            <h3>${food.name}</h3>
-                                        </div>
-                                    </div>
-                                    <div class="FText mx-3">
-                                        <p>${food.description}</p>
-                                    </div>
-                                </div>
-                            `;
-
-            foodContainer.append(foodElement);
+        $.ajax({
+            url: 'foods.json',
+            type: 'GET',
+            dataType: 'json',
+            success: function(foods) {
+                displayFoods(foods);
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+                console.error('Error loading JSON:', textStatus, errorThrown);
+            }
         });
+
+        function displayFoods(foods) {
+            var container = $("#foodContainer");
+
+            for (var i = 0; i < foods.length; i++) {
+                var food = foods[i];
+
+                if (food.code == 2) {
+                    continue;
+                }
+
+                var foodElement = `
+                    <div id="food" class="col-md-4 grid-item foodType${food.type}" onclick="changeBackground(this)">
+                        <img src="${food.image}" class="img-fluid">
+                        <div class="overlay">
+                            <div class="MainFText">
+                                <h3>${food.name}</h3>
+                            </div>
+                        </div>
+                        <div class="FText mx-3">
+                            <p>${food.description}</p>
+                        </div>
+                    </div>`;
+                container.append(foodElement);
+            }
+        }
     </script>
 </body>
 

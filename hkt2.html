@@ -290,32 +290,24 @@
         </div>
     </main>
     <!-- Footer-->
-    <footer class="border-top">
+    <footer class="border-top custom-background-color">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <ul class="list-inline text-center">
                         <li class="list-inline-item">
-                            <a href="#!">
+                            <a href="#!" data-bs-toggle="popover" data-bs-content="朱建強" data-bs-placement="left">
                                 <span class="fa-stack fa-lg">
                                     <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                    <i class="fas fa-user-alt fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#!">
+                            <a href="#!" data-bs-toggle="popover" data-bs-content="張子宏" data-bs-placement="right">
                                 <span class="fa-stack fa-lg">
                                     <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#!">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                    <i class="fas fa-user-alt fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                         </li>
@@ -343,6 +335,18 @@
             if (data && data.icon && data.temperature && data.temperature.data) {
                 var iconValue = data.icon[0];
                 var imageUrl = `https://www.hko.gov.hk/images/HKOWxIconOutline/pic${iconValue}.png`;
+                var recordTime = data.temperature.recordTime;
+                const date = new Date(recordTime);
+                const formattedDate = date.toLocaleString('en-US', { 
+                    timeZone: 'Asia/Hong_Kong',
+                    year: 'numeric', 
+                    month: '2-digit', 
+                    day: '2-digit', 
+                    hour: '2-digit', 
+                    minute: '2-digit', 
+                    second: '2-digit', 
+                    timeZoneName: 'short' 
+                });
 
                 data.temperature.data.forEach(function (temperatureData) {
                     var place = temperatureData.place;
@@ -358,7 +362,12 @@
                             </div>
                         <div class="col-md-auto mb-4">
                             <div class="grid-item2">
-                                <h3>香港天氣</h3><p class="mt-0"> ${value} °C</p>
+                                    <h3>香港天氣
+                                        <a href="#!" class="fa-stack h5" data-bs-toggle="popover" data-bs-content="最後更新：${formattedDate.replace(',', '')}" data-bs-placement="right">
+                                            <i class="fas fa-circle fa-stack-2x"></i>
+                                            <i class="fa-solid fa-exclamation fa-stack-1x fa-inverse"></i>
+                                        </a>
+                                    </h3><p class="mt-0"> ${value} °C</p>
                                 </div>
                             </div>
                         </div>`;
@@ -366,6 +375,11 @@
                         $("#todayHKweather").html(content);
                         $("#DelayText").html("迪士尼樂園");
                     }
+
+                    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+                    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                    return new bootstrap.Popover(popoverTriggerEl)
+                    });
                 });
 
             }

@@ -1,0 +1,254 @@
+[
+  {
+    "type": 5,
+    "image": "assets/img/dim-sum.jpg",
+    "name": "點心",
+    "description": "提到廣東最有名的菜款，一定非點心莫屬。點心泛指在蒸籠蒸熟的一系列小口精緻菜式。無論你較喜歡甜食或是鹹點，款式豐富的點心都一定能滿足你的味蕾.",
+    "code": 1
+  },
+  {
+    "type": 3,
+    "image": "assets/img/aaa.jpg",
+    "name": "港式奶茶",
+    "description": "所謂絲襪奶茶就是指沖出來的奶茶顏色像絲襪那樣滑溜，把煮好的錫蘭紅茶用一個像是尼龍網的棉線網先行過濾茶渣，使紅茶更香滑，然後再加入奶和糖.",
+    "code": 1
+  },
+  {
+    "type": 4,
+    "image": "assets/img/eggtart.jpg",
+    "name": "蛋撻",
+    "description": "蛋撻在港人心目中有著不可取代的地位，無論是早餐或是下午茶小吃，都不會有人拒絕這個誘人的小傢伙。蛋撻外皮為脆香的牛油餅皮，中心是特調的雞蛋漿，新鮮出爐的時間吃是最好不過了.",
+    "code": 1
+  },
+  {
+    "type": 4,
+    "image": "assets/img/hong-kong-food-pineapple-bun.jpg",
+    "name": "菠蘿包",
+    "description": "如你是個「麵包控」，中式餅店會是你的天堂。但如要選出一個本地人最愛的麵包，一定莫過於菠蘿包。菠蘿包沒有菠蘿成分，其名之由來乃因其外貌在烤過後像菠蘿的外皮一樣。吃一口，你會嚐到脆香的外皮和軟糯的包身，一試難忘.",
+    "code": 1
+  },
+  {
+    "type": 3,
+    "image": "assets/img/hong-kong-food-ice-lemon-tea-rotated.jpg",
+    "name": "港式凍檸茶",
+    "description": "港式凍檸茶跟一般凍檸檬茶最大的分別，就是港式凍檸茶能夠在檸檬的酸味、茶味、以及糖漿的甜味之間取得一個完美的平衡.",
+    "code": 1
+  },
+  {
+    "type": 2,
+    "image": "assets/img/hong-kong-food-stir-fried-beef-noodles.jpg",
+    "name": "乾炒牛肉河粉",
+    "description": "以牛肉片、河粉為主，再加上蔥、韮菜、芽菜、醬油用高溫快炒而成的乾炒牛肉河粉，特點是油而不膩，也是茶餐廳在午餐期間、下午茶期間、以及晚餐時間內最熱門的食物.",
+    "code": 1
+  },
+  {
+    "type": 2,
+    "image": "assets/img/hong-kong-food-stir-fried-rice-noodles.jpg",
+    "name": "星洲炒米粉",
+    "description": "星洲炒米粉是一種用鮮蝦、叉燒、辣椒為配料，然後再加上薑黃粉調味的炒米粉.",
+    "code": 1
+  },
+  {
+    "type": 4,
+    "image": "assets/img/hong-kong-food-french-toast.jpg",
+    "name": "西多士",
+    "description": "看著牛油在金黃色的西多士上融化，再淋上蜜糖增加香甜滋味，試問誰能抵擋西多士的美味?",
+    "code": 1
+  },
+  {
+    "type": 5,
+    "image": "assets/img/hong-kong-food-roast-pigeon.jpg",
+    "name": "椒鹽燒乳鴿",
+    "description": "擁有香脆外皮、以及帶一點鹹香的椒鹽燒乳鴿，差不多是每一間粵菜餐廳都一定會有的菜式.",
+    "code": 1
+  },
+  {
+    "type": 2,
+    "image": "assets/img/hong-kong-food-satay-beef-noodles.jpg",
+    "name": "沙嗲牛肉出前一丁",
+    "description": "每一間茶餐廳都會使用獨家秘方來製作沙嗲牛肉，所以你在不同茶餐廳所吃到的沙嗲牛肉的都會有不一樣的味道.",
+    "code": 1
+  },
+  {
+    "type": 5,
+    "image": "assets/img/hong-kong-food-crispy-fried-calamari.jpg",
+    "name": "椒鹽鮮魷",
+    "description": "沾上蛋黃後再用高溫油炸成金黃色、擁有香脆外皮的椒鹽鮮魷，基本上就是不少香港人在晚餐時段內必點的下酒小菜.",
+    "code": 1
+  },
+  {
+    "type": 1,
+    "image": "assets/img/hong-kong-food-roast-goost-rice.jpg",
+    "name": "燒鵝飯",
+    "description": "皮脆肉嫩的燒鵝，一向深受港人及遊客歡迎。新鮮即切且啖啖肉香，絕對是佐飯佳品.",
+    "code": 1
+  },
+  {
+    "type": 5,
+    "image": "assets/img/hong-kong-food-sweet-and-sour-pork.jpg",
+    "name": "菠蘿咕嚕肉",
+    "description": "菠蘿咕嚕肉的製作方式，是把一些連骨的豬肉首先用油炸到金黃香脆，然後加上菠蘿、青椒、洋蔥、以及酸甜汁後再用大火炒一次，出來就是你經常會吃到那一種酸酸甜甜又帶點香脆的菠蘿咕嚕肉.",
+    "code": 1
+  },
+  {
+    "type": 2,
+    "image": "assets/img/hong-kong-food-wanton-noodles.jpg",
+    "name": "雲吞麵",
+    "description": "以鮮蝦雲吞，再配上精製湯底、以及蛋麵，就組成了一碗最傳統的雲吞麵。別以一碗雲吞麵的份量只有很少，只要你食量不算很大的話，其實小小的一碗麵都足夠讓你吃得飽.",
+    "code": 1
+  },
+  {
+    "type": 4,
+    "image": "assets/img/10952862_10152846364955897_7496368430191575154_n-768x768.jpg",
+    "name": "雞蛋仔",
+    "description": "港式雞蛋仔口味層出不同，有巧克力、鹹蛋黃、抺茶紅豆和咖啡等等，新鮮製成的雞蛋仔是外脆內軟，充滿蛋香.",
+    "code": 1
+  },
+  {
+    "type": 2,
+    "image": "assets/img/hong-kong-food-beef-brisket-noodles.jpg",
+    "name": "牛腩麵",
+    "description": "以多種香料醃製、並配上濃厚湯底的牛腩麵，是我們在粥麵店內另一款經常會點的食物。因為對於我們來說，牛腩的油脂、再加上那一碗放在濃厚湯底內的蛋麵，就是一種最能夠直接衝擊到味覺的食物，也讓我們有十足精神繼續堅持到下班的一刻.",
+    "code": 1
+  },
+  {
+    "type": 2,
+    "image": "assets/img/hong-kong-food-fishball-noodles.jpg",
+    "name": "魚蛋麵",
+    "description": "以每天新鮮製作的魚蛋，再配上鮮魚乾製作的湯底，然後再加上少許蔥碎，就成為了一碗非常吸引的魚蛋麵.",
+    "code": 1
+  },
+  {
+    "type": 4,
+    "image": "assets/img/hong-kong-street-food-fish-ball.jpg",
+    "name": "港式咖哩魚蛋",
+    "description": "港式咖哩魚蛋的最大特點，就是每一粒魚蛋都會先經過油炸，然後再吸收整鍋咖哩湯底的精華，讓你每一次咬下去都能夠體驗到香辣、彈牙的口感。",
+    "code": 1
+  },
+  {
+    "type": 5,
+    "image": "assets/img/satay.jpg",
+    "name": "沙爹",
+    "description": "沙爹(SATAY)是將鹵過的牛肉或雞肉串成肉棒，然後在炭火上燒烤，佐以甜中帶辣的花生醬汁，再配上黃瓜、洋蔥和一種稱為KETUPAT的馬來飯團(裹上棕葉煮成的)一起食用.",
+    "code": 2
+  },
+  {
+    "type": 2,
+    "image": "assets/img/wantanmee.jpg",
+    "name": "雲吞麵",
+    "description": "雲吞麵是一道著名的廣東麵食，馬來西亞人稱之為「Wan Tan Mee」（粵語發音）。雲吞麵在馬來西亞是最常見和受歡迎的麵食，長期以來都是馬來西亞華人愛吃的麵食之一，幾乎每一個小販中心一定能看到雲吞麵的食攤。",
+    "code": 2
+  },
+  {
+    "type": 2,
+    "image": "assets/img/laksa.jpg",
+    "name": "叻沙",
+    "description": "「叻沙 (Laksa)」是最受歡迎的馬來西亞和新加坡美食之一，它曾被美國媒體評選為「十大死前必吃料理」，濃郁獨特的香氣和豐富的配料讓許多人一吃成主顧。叻沙在各地有不同的風味和配料，在台灣提到叻沙，多半指南馬和新加坡地區盛行的「咖哩叻沙 (Curry Laksa)」...",
+    "code": 2
+  },
+  {
+    "type": 1,
+    "image": "assets/img/nasilemak.jpg",
+    "name": "椰漿飯",
+    "description": "椰漿飯（馬來語：nasi lemak）是最著名馬來西亞當地美食之一。在馬來西亞，椰漿飯不僅為馬來人所喜愛，華人，印度人和其他民族都喜歡把它作為正餐食用。椰漿飯由椰奶蒸飯、香斑斕葉、辣椒醬、炸花生鳳尾魚、黃瓜片和半個煮雞蛋構成。用雙層的香蕉葉和舊報紙...",
+    "code": 2
+  },
+  {
+    "type": 3,
+    "image": "assets/img/whitecoffee.jpg",
+    "name": "白咖啡",
+    "description": "白咖啡是馬來西亞的土特產，約有100多年的歷史。白咖啡並不是指咖啡的顏色是白色的，而是採用特等Liberia（利比里亞）、Arabica（阿拉比卡）和Robusta（羅布斯塔）咖啡豆及特級的脱脂奶精原料...",
+    "code": 2
+  },
+  {
+    "type": 5,
+    "image": "assets/img/rojak.jpg",
+    "name": "羅惹",
+    "description": "一道極具特色的印度小食，馬來西亞的各處都可以找到，這種小吃的特點是配料多樣，有香脆可口的油條、花生、芽菜、豆腐、蝦餅等，最特殊的是那黑黑的花生醬，吃起來酸甜可口，非常開胃...",
+    "code": 2
+  },
+  {
+    "type": 2,
+    "image": "assets/img/otakotak.jpg",
+    "name": "烏達",
+    "description": "烏達 （ 馬來語 ： Otak-otak ）也稱 烏打 ，是一種以魚肉泥與各種香料混合，放進香蕉葉或亞答葉包裹後拿去炊蒸或烘烤的食品，在 東南亞 一帶常見，也是 馬來西亞 柔佛州 麻坡 的代表性美食。",
+    "code": 2
+  },
+  {
+    "type": 2,
+    "image": "assets/img/ketupat.jpg",
+    "name": "馬來粽子",
+    "description": "馬來粽（馬來語：Ketupat）、是一種東南亞傳統食物，在馬來西亞馬來族居多處歡慶伊斯蘭開齋節常見這種食物，並且當成開齋節主要象徵之一。馬來粽由於製法與形狀類似華人所紮的粽子，所以當地華人習慣上把它稱作「馬來粽」（基於相同原因，馬來社群也習慣將華人的粽子稱作ketupat Cina）。通常所見的馬來粽大抵可分兩種：一種是採用羽狀棕櫚葉包裹的，另一種是用椰葉紮成。",
+    "code": 2
+  },
+  {
+    "type": 2,
+    "image": "assets/img/roticanai.jpg",
+    "name": "印度煎餅",
+    "description": "印度煎餅（馬來語：Roti canai）是種圓扁形或方形且較脆的煎餅，通常有餡料的都是方形，Roti 指的是「麵包」，在這裡的意思是「煎餅」，而Canai的意思是「來回壓扁」，只因印度煎餅師傅在製作印度煎餅過程中把麵團壓扁及拉伸或拋甩，但有時在製作過程中有拋甩的動作，也有一說Canai的由來是源於在製作煎餅時一起使用的麵團。",
+    "code": 2
+  },
+  {
+    "type": 5,
+    "image": "assets/img/bakkutteh.jpg",
+    "name": "肉骨茶",
+    "description": "肉骨茶是馬來西亞、新加坡等地的一道湯菜，之後也廣傳於中國大陸、臺灣、海外華人地區。「肉骨」如其名，是以帶肉的骨配合中藥煲成的湯。而「茶」字則是源自當地一位華人餐廳店主的名字「李文地」，因為賣該種肉骨湯且味道上乘，而被顧客稱作「肉骨地」，福建話中的「地」與「茶」音近，故後來被稱為「肉骨茶」。食材本身並沒有茶葉。",
+    "code": 2
+  },
+  {
+    "type": 4,
+    "image": "assets/img/currypuff.jpg",
+    "name": "馬來咖哩餃",
+    "description": "咖哩餃是一種馬來點心，流行於馬來西亞、香港,印度尼西亞和泰國等地。咖哩餃以麵皮包上咖哩餡料，形狀一般為半圓形，將其邊緣捏成花邊後，再經油炸或烘烤而成，其外型及製作方式與葡萄牙的恩潘納達（牛肉餡餅）類似。",
+    "code": 2
+  },
+  {
+    "type": 4,
+    "image": "assets/img/pisanggoreng.jpg",
+    "name": "炸香蕉",
+    "description": "炸香蕉是一道將香蕉裹上一層麵糊，再放進熱油裡炸，酥炸後的炸香蕉外脆內軟，流行於東南亞各地和南印度一帶，是當地人下午茶時間或飯後所享用的甜點。",
+    "code": 2
+  },
+  {
+    "type": 4,
+    "image": "assets/img/zhuchangfen.jpg",
+    "name": "豬腸粉",
+    "description": "豬腸粉又稱齋腸,是一種使用米漿製作的廣東食品，在香港及馬來西亞是常見的街頭小吃。香港的豬腸粉除了使用醬油調味外，還可按喜好加入甜麵醬、花生醬、辣椒醬或芝麻醬而且當地的酒樓常以XO醬與豬腸粉同炒，製作XO醬炒豬腸粉。",
+    "code": 2
+  },
+  {
+    "type": 1,
+    "image": "assets/img/nasikerabu.jpg",
+    "name": "藍花飯",
+    "description": "藍花飯是馬來菜的一種米飯，是香草飯的一種，主要食材是藍色米飯、乾魚或炸雞、餅乾、泡菜等沙拉。米飯使用蝶豆的花瓣染色之後烹製s，也可以用普通白米或用薑黃米烹製。它經常與釀辣椒（solok lada）和蝦餅一起食用。",
+    "code": 2
+  },
+  {
+    "type": 1,
+    "image": "assets/img/nasikandar.jpg",
+    "name": "扁擔飯",
+    "description": "扁擔飯是廣受歡迎的印度回教徒美食。NASI是馬來文”飯”的意思，而KANDAR則是”扁擔”的意思。這是一種飯食，伴以用香濃的咖哩汁煮的各種雞、肉、魚等菜餚。另外，和麵做成的小麵團，而後製成各類煎餅，也是廣受歡迎的印度美食。一般和咖哩魚汁一起享用。香蕉葉飯是另一道可口的美食，佐料有咖哩雞肉、羊肉、魚肉以及蔬菜或醃菜，以手直接抓取食物來吃。",
+    "code": 2
+  },
+  {
+    "type": 2,
+    "image": "assets/img/prawnnoodle.jpg",
+    "name": "檳城福建蝦湯麵",
+    "description": "檳城福建蝦麵湯頭由蝦殼、蝦頭、豬肉或雞肉一起熬煮，必須經過3-4個小時熬煮，才能將菁華食材的精華完全釋放出來，傳統的湯頭中還會加入豬油，但近年來健康概念盛行，所以這種做法較不普遍。福建蝦麵的麵是油麵加上米粉一起煮，煮好後放入碗中，再加入蝦肉、魚板、蕹菜(即空心菜)、豬肉、水煮蛋，最後再配上酥炸蔥花及檳城當地特殊的辣椒醬，才稱得上是道地的檳城蝦湯麵。",
+    "code": 2
+  },
+  {
+    "type": 5,
+    "image": "assets/img/cendol.jpg",
+    "name": "娘惹精露",
+    "description": "娘惹精露 Cendol是馬來西亞道地娘惹甜品，以椰醬、綠色細麵條和椰糖做成的美味刨冰。",
+    "code": 2
+  },
+  {
+    "type": 3,
+    "image": "assets/img/tehtarik.jpg",
+    "name": "印度拉茶",
+    "description": "拉茶又稱為印度拉茶，為奶茶的一種，是馬來西亞的茶飲，印度本土並沒有。拉茶是用兩個杯子遠距離倒來倒去，看似拉來拉去，故名「拉茶」，「拉」得越長，泡沫越多，味道就會好。",
+    "code": 2
+  }
+]
